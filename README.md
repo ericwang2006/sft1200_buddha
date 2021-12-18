@@ -11,6 +11,7 @@
   `wget -qO- https://cdn.jsdelivr.net/gh/ericwang2006/sft1200_buddha/install.sh | sh -s passwall`
 
 - 只安装ssr-plus
+
   `wget -qO- https://cdn.jsdelivr.net/gh/ericwang2006/sft1200_buddha/install.sh | sh -s ssr-plus`
 
 ## 特别说明
