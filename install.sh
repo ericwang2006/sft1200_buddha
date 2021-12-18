@@ -4,10 +4,10 @@ echo "src/gz sft1200_buddha https://cdn.jsdelivr.net/gh/ericwang2006/sft1200_bud
 opkg update
 action="$1"
 case "${action}" in
---ssr-plus)
+ssr-plus)
 	opkg install luci luci-i18n-base-zh-cn luci-app-ssr-plus luci-i18n-ssr-plus-zh-cn
 	;;
---passwall)
+passwall)
 	opkg install luci luci-i18n-base-zh-cn luci-app-passwall luci-i18n-passwall-zh-cn
 	;;
 *)
