@@ -179,6 +179,27 @@ Description:  A Stable & Secure Tunnel Based On KCP with N:M Multiplexing.
  
  This package contains the kcptun client.
 
+Package: libsodium
+Version: 1.0.18-2021-09-17-64129657
+Depends: libc
+Source: feeds/packages/libs/libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Damiano Renfer <x9w2n7xnu@relay.firefox.com>
+Architecture: mips_siflower
+Installed-Size: 154109
+Filename: libsodium_1.0.18-2021-09-17-64129657_mips_siflower.ipk
+Size: 155196
+MD5Sum: b59ae5b26f63dbf9018948701c01b096
+SHA256sum: 910fad88314e34de82b747da0945b555eaf5afc2d72105687be68a9dd11eb877
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
 Package: luci-app-passwall
 Version: 4.43-2
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, dns2socks, ipset, ip-full, ipt2socks, iptables-mod-tproxy, iptables-mod-iprange, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, chinadns-ng, hysteria, kcptun-client, pdnsd-alt, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-go, xray-core, xray-plugin
